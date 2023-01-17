@@ -3,7 +3,7 @@ GO
 IF NOT EXISTS (
    SELECT name
    FROM sys.databases
-   WHERE name = N'EApartments'
+   WHERE name = N'EApartmentDB'
 )
-CREATE DATABASE [EApartments]
+CREATE DATABASE [EApartmentDB]
 GO

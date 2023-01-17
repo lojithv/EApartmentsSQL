@@ -1,4 +1,4 @@
-USE [EApartments]
+USE [EApartmentDB]
 -- Create a new table called 'Customers' in schema 'dbo'
 -- Drop the table if it already exists
 IF OBJECT_ID('dbo.Apartments', 'U') IS NOT NULL
