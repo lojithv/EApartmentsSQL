@@ -1,4 +1,4 @@
-USE [EApartments]
+USE [EApartmentDB]
 -- Create a new table called 'Customers' in schema 'dbo'
 -- Drop the table if it already exists
 IF OBJECT_ID('dbo.Users', 'U') IS NOT NULL
@@ -11,6 +11,7 @@ CREATE TABLE dbo.Users
    FirstName [NVARCHAR](50) NOT NULL,
    LastName [NVARCHAR](50) NOT NULL,
    Email [NVARCHAR](50) NOT NULL,
-   Password [NVARCHAR](50) NOT NULL
+   Password [NVARCHAR](50) NOT NULL,
+   Role varchar(10) NOT NULL CHECK (Role IN('ADMIN', 'USER'))
 );
 GO
