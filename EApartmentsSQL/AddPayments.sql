@@ -10,6 +10,6 @@ CREATE TABLE dbo.Payments
    PaymentID INT NOT NULL IDENTITY(1,1) PRIMARY KEY, -- primary key column
    Description [NVARCHAR](50) NOT NULL,
    Type [NVARCHAR](50) NOT NULL,
-   Amount [Float](50) NOT NULL
+   Amount [Float](50) NOT NULL
 );
 GO

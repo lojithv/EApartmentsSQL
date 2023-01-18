@@ -14,6 +14,6 @@ CREATE TABLE dbo.LeaseExtensions
    ExpireDate  [NVARCHAR](50) NOT NULL,
    AdditionalDependents  [NVARCHAR](50),
    DueAmount  [NVARCHAR](50),
-   AdditionalNeeds  [NVARCHAR](50)
+   AdditionalNeeds [NVARCHAR](50)
 );
 GO

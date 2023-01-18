@@ -14,6 +14,6 @@ CREATE TABLE dbo.ApartmentApplications
    Contact [NVARCHAR](50) NOT NULL,
    Relationship [NVARCHAR](50) NOT NULL,
    ApartmentTypes [NVARCHAR](50) NOT NULL,
-   Additions [NVARCHAR](50) NULL
+   Additions [NVARCHAR](50) NULL
 );
 GO

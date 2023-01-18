@@ -10,6 +10,6 @@ CREATE TABLE dbo.ParkingSpaces
    ParkingID INT NOT NULL IDENTITY(1,1) PRIMARY KEY, -- primary key column
    Location [NVARCHAR](50) NOT NULL,
    Status [NVARCHAR](50) NOT NULL,
-   Fee [Float](50) NULL
+   Fee [Float](50) NULL
 );
 GO
